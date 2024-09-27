@@ -148,9 +148,9 @@
     </mailingLists>
 
     <scm>
-        <connection>scm:git:https://github.com/wso2/carbon-parent.git</connection>
-        <url>https://github.com/wso2/carbon-parent.git</url>
-        <developerConnection>scm:git:https://github.com/wso2/carbon-parent.git</developerConnection>
+        <connection>scm:git:https://github.com/maheshika/carbon-parent.git</connection>
+        <url>https://github.com/maheshika/carbon-parent.git</url>
+        <developerConnection>scm:git:https://github.com/maheshika/carbon-parent.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
 
