@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+test<?xml version="1.0" encoding="UTF-8"?>
 <!--
  Copyright (c) 2016, WSO2 Inc. (http://www.wso2.org) All Rights Reserved.
 
@@ -17,9 +17,9 @@
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.wso2</groupId>
+    <groupId>org.nexustest.wso2</groupId>
     <artifactId>wso2</artifactId>
-    <version>5.4-SNAPSHOT</version>
+    <version>30-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>WSO2 Inc</name>
@@ -53,7 +53,7 @@
         <repository>
             <id>wso2.releases</id>
             <name>WSO2 Releases Repository</name>
-            <url>https://maven.wso2.org/nexus/content/repositories/releases/</url>
+            <url>https://upgrade-maven3.wso2.org/nexus/content/repositories/releases/</url>
             <releases>
                 <enabled>true</enabled>
                 <updatePolicy>daily</updatePolicy>
@@ -65,7 +65,7 @@
         <repository>
             <id>wso2.snapshots</id>
             <name>WSO2 Snapshot Repository</name>
-            <url>https://maven.wso2.org/nexus/content/repositories/snapshots/</url>
+            <url>https://upgrade-maven3.wso2.org/nexus/content/repositories/snapshots/</url>
             <snapshots>
                 <enabled>true</enabled>
                 <updatePolicy>daily</updatePolicy>
@@ -78,7 +78,7 @@
         <repository>
             <id>wso2-nexus</id>
             <name>WSO2 internal Repository</name>
-            <url>https://maven.wso2.org/nexus/content/groups/wso2-public/</url>
+            <url>https://upgrade-maven3.wso2.org/nexus/content/groups/wso2-public/</url>
             <releases>
                 <enabled>true</enabled>
                 <updatePolicy>daily</updatePolicy>
@@ -91,7 +91,7 @@
         <pluginRepository>
             <id>wso2.releases</id>
             <name>WSO2 Releases Repository</name>
-            <url>https://maven.wso2.org/nexus/content/repositories/releases/</url>
+            <url>https://upgrade-maven3.wso2.org/nexus/content/repositories/releases/</url>
             <releases>
                 <enabled>true</enabled>
                 <updatePolicy>daily</updatePolicy>
@@ -102,7 +102,7 @@
         <pluginRepository>
             <id>wso2.snapshots</id>
             <name>WSO2 Snapshot Repository</name>
-            <url>https://maven.wso2.org/nexus/content/repositories/snapshots/</url>
+            <url>https://upgrade-maven3.wso2.org/nexus/content/repositories/snapshots/</url>
             <snapshots>
                 <enabled>true</enabled>
                 <updatePolicy>daily</updatePolicy>
@@ -115,7 +115,7 @@
         <pluginRepository>
             <id>wso2-nexus</id>
             <name>WSO2 internal Repository</name>
-            <url>https://maven.wso2.org/nexus/content/groups/wso2-public/</url>
+            <url>https://upgrade-maven3.wso2.org/nexus/content/groups/wso2-public/</url>
             <releases>
                 <enabled>true</enabled>
                 <updatePolicy>daily</updatePolicy>
@@ -128,12 +128,12 @@
         <repository>
             <id>nexus-releases</id>
             <name>WSO2 Nexus Release Repository</name>
-            <url>https://maven.wso2.org/nexus/service/local/staging/deploy/maven2/</url>
+            <url>https://upgrade-maven3.wso2.org/nexus/service/local/staging/deploy/maven2/</url>
         </repository>
         <snapshotRepository>
             <id>wso2.snapshots</id>
             <name>WSO2 Snapshot Repository</name>
-            <url>https://maven.wso2.org/nexus/content/repositories/snapshots/</url>
+            <url>https://upgrade-maven3.wso2.org/nexus/content/repositories/snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 
