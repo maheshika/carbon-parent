@@ -128,7 +128,7 @@
         <repository>
             <id>nexus-releases</id>
             <name>WSO2 Nexus Release Repository</name>
-            <url>https://upgrade-maven3.wso2.org/nexus/repository/staging/</url>
+            <url>https://upgrade-maven3.wso2.org/nexus/repository/releases/</url>
         </repository>
         <snapshotRepository>
             <id>wso2.snapshots</id>
