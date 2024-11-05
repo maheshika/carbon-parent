@@ -53,7 +53,7 @@
         <repository>
             <id>wso2.releases</id>
             <name>WSO2 Releases Repository</name>
-            <url>https://upgrade-maven3.wso2.org/nexus/content/repositories/releases/</url>
+            <url>https://upgrade-maven3.wso2.org/nexus/repository/releases/</url>
             <releases>
                 <enabled>true</enabled>
                 <updatePolicy>daily</updatePolicy>
@@ -65,7 +65,7 @@
         <repository>
             <id>wso2.snapshots</id>
             <name>WSO2 Snapshot Repository</name>
-            <url>https://upgrade-maven3.wso2.org/nexus/content/repositories/snapshots/</url>
+            <url>https://upgrade-maven3.wso2.org/nexus/repository/snapshots/</url>
             <snapshots>
                 <enabled>true</enabled>
                 <updatePolicy>daily</updatePolicy>
@@ -91,7 +91,7 @@
         <pluginRepository>
             <id>wso2.releases</id>
             <name>WSO2 Releases Repository</name>
-            <url>https://upgrade-maven3.wso2.org/nexus/content/repositories/releases/</url>
+            <url>https://upgrade-maven3.wso2.org/nexus/repository/releases/</url>
             <releases>
                 <enabled>true</enabled>
                 <updatePolicy>daily</updatePolicy>
@@ -102,7 +102,7 @@
         <pluginRepository>
             <id>wso2.snapshots</id>
             <name>WSO2 Snapshot Repository</name>
-            <url>https://upgrade-maven3.wso2.org/nexus/content/repositories/snapshots/</url>
+            <url>https://upgrade-maven3.wso2.org/nexus/repository/snapshots/</url>
             <snapshots>
                 <enabled>true</enabled>
                 <updatePolicy>daily</updatePolicy>
@@ -133,7 +133,7 @@
         <snapshotRepository>
             <id>wso2.snapshots</id>
             <name>WSO2 Snapshot Repository</name>
-            <url>https://upgrade-maven3.wso2.org/nexus/content/repositories/snapshots/</url>
+            <url>https://upgrade-maven3.wso2.org/nexus/repository/snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 
